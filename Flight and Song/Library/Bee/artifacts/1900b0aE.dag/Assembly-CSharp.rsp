@@ -395,6 +395,7 @@
 "Assets/Code/EnemyShipMovement.cs"
 "Assets/Code/EnemyShooter.cs"
 "Assets/Code/FlyingController.cs"
+"Assets/Code/MusicVisualizer.cs"
 "Assets/Code/SkyscraperSpawner.cs"
 "Assets/Samples/OpenXR Plugin/1.8.2/Intercept Feature/InterceptCreateSessionFeature.cs"
 "Assets/Samples/OpenXR Plugin/1.8.2/Intercept Feature/InterceptMessageHandler.cs"

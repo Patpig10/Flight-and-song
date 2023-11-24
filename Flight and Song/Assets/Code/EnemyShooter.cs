@@ -7,35 +7,47 @@ public class EnemyShooter : MonoBehaviour
     public GameObject ball;
     public GameObject pipe;
     public GameObject ring;
-    public Transform attackPoint1;
-    public Transform attackPoint2;
-    public Transform attackPoint3;
-    public float rotationInterval = 3.0f;
+    public Transform[] attackPoints; // Array to hold attack points
+    public float spawnInterval = 3.0f;
 
     void Start()
     {
-        StartCoroutine(ShootRoutine());
+        StartCoroutine(SpawnRoutine());
     }
 
-    IEnumerator ShootRoutine()
+    IEnumerator SpawnRoutine()
     {
         while (true)
         {
-            Shoot(ball, attackPoint1);
-            Shoot(pipe, attackPoint2);
-            Shoot(ring, attackPoint3);
+            // Choose a random attack point
+            Transform randomAttackPoint = attackPoints[Random.Range(0, attackPoints.Length)];
 
-            yield return new WaitForSeconds(rotationInterval);
+            // Instantiate a random projectile at the chosen attack point
+            SpawnRandomProjectile(randomAttackPoint);
 
-            // Rotate the attack points
-            attackPoint1.Rotate(Vector3.up * 120.0f);
-            attackPoint2.Rotate(Vector3.up * 120.0f);
-            attackPoint3.Rotate(Vector3.up * 120.0f);
+            yield return new WaitForSeconds(spawnInterval);
         }
     }
 
-    void Shoot(GameObject projectileType, Transform attackPoint)
+    void SpawnRandomProjectile(Transform attackPoint)
     {
-        Instantiate(projectileType, attackPoint.position, attackPoint.rotation);
+        GameObject randomProjectile = GetRandomProjectile();
+        Instantiate(randomProjectile, attackPoint.position, Quaternion.identity);
+    }
+
+    GameObject GetRandomProjectile()
+    {
+        int randomIndex = Random.Range(0, 3);
+        switch (randomIndex)
+        {
+            case 0:
+                return ball;
+            case 1:
+                return pipe;
+            case 2:
+                return ring;
+            default:
+                return ball;
+        }
     }
 }
