@@ -23,6 +23,8 @@ VR: Tilt both controllers to move, the left button to Ascend and the right butto
 | EnemyShooter.cs | self written |
 | EnemyShipMovement.cs | self written |
 | FlyingController.cs | self written |
+| 100 Special Skills Effects Pack|GAPH|
+
 
 # References
 * Superman 64
