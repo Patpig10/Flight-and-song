@@ -1,21 +1,3 @@
-using UnityEditor;
-using UnityEngine;
-
-namespace UnityEditor.TerrainTools
-{
-    [CustomEditor(typeof(NoiseSettings))]
-    internal class NoiseSettingsEditor : Editor
-    {
-        NoiseSettingsGUI gui = new NoiseSettingsGUI();
-
-        void OnEnable()
-        {
-            gui.Init(serializedObject);
-        }
-
-        public override void OnInspectorGUI()
-        {
-            gui.OnGUI();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ada696da61e0d2b5897dadf29de18588e8f76c65f7def1f2b3cd189a25980c9d
+size 411

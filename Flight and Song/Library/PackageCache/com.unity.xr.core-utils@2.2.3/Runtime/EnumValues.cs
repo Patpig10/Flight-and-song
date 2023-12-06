@@ -1,16 +1,3 @@
-﻿using System;
-
-namespace Unity.XR.CoreUtils
-{
-    /// <summary>
-    /// Helper class for caching enum values.
-    /// </summary>
-    /// <typeparam name="T">The enum type whose values should be cached.</typeparam>
-    public static class EnumValues<T>
-    {
-        /// <summary>
-        /// Cached result of Enum.GetValues.
-        /// </summary>
-        public static readonly T[] Values = (T[])Enum.GetValues(typeof(T));
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:512613292888ab4a5836273ec2eb580bbc67d10f8058a2f4f0be469aa3663e27
+size 435

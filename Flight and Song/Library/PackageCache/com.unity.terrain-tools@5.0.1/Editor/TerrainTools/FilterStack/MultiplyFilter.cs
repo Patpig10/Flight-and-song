@@ -1,19 +1,3 @@
-using UnityEngine;
-
-namespace UnityEditor.TerrainTools
-{
-    [System.Serializable]
-    internal class MultiplyFilter : Filter
-    {
-        [SerializeField]
-        public float value = 1;
-        public override string GetDisplayName() => "Multiply";
-        public override string GetToolTip() => "Multiply the Brush Mask filter stack by a constant";
-        protected override void OnEval(FilterContext filterContext, RenderTexture source, RenderTexture dest)
-        {
-            FilterUtility.builtinMaterial.SetFloat("_Multiply", value);
-            Graphics.Blit(source, dest, FilterUtility.builtinMaterial, (int)FilterUtility.BuiltinPasses.Multiply);
-        }
-        protected override void OnDrawGUI(Rect rect, FilterContext filterContext) => value = EditorGUI.FloatField(rect, value);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7d1e335c62b1fcb555b828de15414a9b445f79fc1865860d2dfdb2bca100a579
+size 805

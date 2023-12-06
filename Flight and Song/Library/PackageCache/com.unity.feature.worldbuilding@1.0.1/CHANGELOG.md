@@ -1,7 +1,3 @@
-# Changelog
-
-## [1.0.1] - 2021-06-09
-### Adds in *Terrain Tools*.
-
-## [1.0.0] - 2021-04-23
-### This is the first release of *3D World Building*.
+version https://git-lfs.github.com/spec/v1
+oid sha256:c1f789348e2a0f1822dffb3ae3ced811d432e82913c91561e6cab17fcab54b20
+size 145

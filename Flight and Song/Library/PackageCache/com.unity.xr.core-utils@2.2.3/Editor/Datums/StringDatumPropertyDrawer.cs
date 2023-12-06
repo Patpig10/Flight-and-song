@@ -1,16 +1,3 @@
-﻿using UnityEditor;
-
-namespace Unity.XR.CoreUtils.Datums.Editor
-{
-    /// <summary>
-    /// Variable reference drawer used to represent string references.
-    /// </summary>
-    /// <seealso cref="DatumPropertyDrawer"/>
-    /// <summary>
-    /// Class used to draw an <see cref="StringDatumProperty"/>.
-    /// </summary>
-    [CustomPropertyDrawer(typeof(StringDatumProperty))]
-    public class StringDatumPropertyDrawer : DatumPropertyDrawer
-    {
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ae3d9d23857c866658b3c7b673c23c4bbe29f355717e27e03339649ab1e00a9
+size 459

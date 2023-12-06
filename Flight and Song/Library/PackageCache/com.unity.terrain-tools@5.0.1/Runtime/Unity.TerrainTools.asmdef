@@ -1,13 +1,3 @@
-{
-    "name": "Unity.TerrainTools",
-    "references": [],
-    "optionalUnityReferences": [],
-    "includePlatforms": [],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": [],
-    "versionDefines": []
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7848795cfb0b47511e2970dc658e9571cc342176c07c6ff4ef95f3e645b7659
+size 328

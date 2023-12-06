@@ -1,16 +1,3 @@
-﻿using UnityEngine;
-
-namespace UnityEngine.Polybrush
-{
-    /// <summary>
-    /// Interface for objects that contain some Custom Settings 
-    /// </summary>
-    internal interface ICustomSettings
-    {
-        /// <summary>
-        /// The folder where assets of `ICustomSettings` should be saved
-        /// </summary>
-        /// <returns>The name of the custom folder</returns>
-        string assetsFolder { get;}
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ad81ffa9233aa3aef69ebe8a56729bd39bd726abf5973f3f76b7e4ae0f533a27
+size 427

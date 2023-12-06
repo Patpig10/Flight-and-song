@@ -1,20 +1,3 @@
-namespace UnityEditor.TerrainTools
-{
-    /// <summary>
-    /// A NoiseType implementation for Voronoi noise
-    /// </summary>
-    [System.Serializable]
-    internal class VoronoiNoise : NoiseType<VoronoiNoise>
-    {
-        private static NoiseTypeDescriptor desc = new NoiseTypeDescriptor()
-        {
-            name = "Voronoi",
-            outputDir = "Packages/com.unity.terrain-tools/Shaders/NoiseLib",
-            sourcePath = "Packages/com.unity.terrain-tools/Shaders/NoiseLib/Implementation/VoronoiImpl.hlsl",
-            supportedDimensions = NoiseDimensionFlags._1D | NoiseDimensionFlags._2D | NoiseDimensionFlags._3D,
-            inputStructDefinition = null
-        };
-
-        public override NoiseTypeDescriptor GetDescription() => desc;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:33a358427e3968c9dc8d4c2b20d9e886f37d3bac0fbf8d5b859426ac6a64326b
+size 761

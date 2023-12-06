@@ -1,10 +1,3 @@
-{
-    "ErrorExceptions": [
-        {
-            "ValidationTest": "API Validation",
-            "ExceptionMessage": "Assembly \"FbxBuildTestAssets\" no longer exists or is no longer included in build. This change requires a new major version.",
-            "PackageVersion": "4.2.1"
-        }
-    ],
-    "WarningExceptions": []
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:90bf81657586b40b5620d72e4c86942273910114a3627cd593ebe2b0f07fbf77
+size 331

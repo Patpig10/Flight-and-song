@@ -1,28 +1,3 @@
-﻿using System;
-
-namespace Unity.XR.CoreUtils
-{
-    /// <summary>
-    /// Allows a class inheriting from <see cref="ScriptableSettings{T}"/> to specify that its instance Asset
-    /// should be saved under "Assets/[<see cref="Path"/>]/Resources/ScriptableSettings/".
-    /// </summary>
-    [AttributeUsage(AttributeTargets.Class)]
-    public class ScriptableSettingsPathAttribute : Attribute
-    {
-        readonly string m_Path;
-
-        /// <summary>
-        /// The path where this ScriptableSettings should be stored.
-        /// </summary>
-        public string Path => m_Path;
-
-        /// <summary>
-        /// Initialize a new ScriptableSettingsPathAttribute.
-        /// </summary>
-        /// <param name="path">The path where the ScriptableSettings should be stored.</param>
-        public ScriptableSettingsPathAttribute(string path = "")
-        {
-            m_Path = path;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c21dfc83ed72eae368d2ff11b4da7bf53543dec3670204232a04fa52697e73df
+size 907

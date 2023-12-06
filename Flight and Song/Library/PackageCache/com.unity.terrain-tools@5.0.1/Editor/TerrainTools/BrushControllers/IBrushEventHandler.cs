@@ -1,29 +1,3 @@
-using UnityEngine;
-using UnityEngine.TerrainTools;
-
-namespace UnityEditor.TerrainTools
-{
-    /// <summary>
-    /// An interface that represent handling methods for brush events.
-    /// </summary>
-    public interface IBrushEventHandler
-    {
-        /// <summary>
-        /// Register a system event for processing later.
-        /// </summary>
-        /// <param name="newEvent">The event to register.</param>
-        void RegisterEvent(Event newEvent);
-
-        /// <summary>
-        /// Consume previously registered events.
-        /// </summary>
-        /// <param name="terrain">The terrain in focus.</param>
-        /// <param name="editContext">The IOnSceneGUI to reference.</param>
-        void ConsumeEvents(Terrain terrain, IOnSceneGUI editContext);
-
-        /// <summary>
-        /// Allows us to request a repaint of the GUI and scene-view.
-        /// </summary>
-        void RequestRepaint();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd0559317e20b133e1f97d0980e73cdf892f2e3a8ba614c3b12710d29da79ea9
+size 917

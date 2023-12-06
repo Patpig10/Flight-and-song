@@ -1,17 +1,3 @@
-﻿using UnityEditor;
-
-namespace Unity.XR.CoreUtils.Datums.Editor
-{
-    /// <summary>
-    /// Variable reference drawer used to represent an Animation Curve reference.
-    /// </summary>
-    /// <seealso cref="AnimationCurveDatumProperty"/>
-    /// <seealso cref="DatumPropertyDrawer"/>
-    /// <summary>
-    /// Class used to draw an <see cref="AnimationCurveDatumProperty"/>.
-    /// </summary>
-    [CustomPropertyDrawer(typeof(AnimationCurveDatumProperty))]
-    public class AnimationCurveDatumPropertyDrawer : DatumPropertyDrawer
-    {
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:158d936c68fda9e85b4258ce84894b4de7d5a5ff0563f3c6ac116f8ee30d9442
+size 548

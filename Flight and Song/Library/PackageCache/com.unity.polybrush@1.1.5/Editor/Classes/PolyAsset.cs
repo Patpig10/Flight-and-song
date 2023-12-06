@@ -1,22 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.IO;
-using UnityEditor;
-using UnityEngine;
-
-/// <summary>
-/// Super class for every Polybrush Assets implementing Reset() function
-/// so that when you reset them from the inspector they don't loose their name
-/// </summary>
-public class PolyAsset : ScriptableObject
-{
-    /// <summary>
-    /// Reset() function so that when you reset Polybrush Assets
-    /// from the inspector they don't loose their name
-    /// </summary>
-    protected virtual void Reset()
-    {
-        string path = AssetDatabase.GetAssetPath(this.GetInstanceID());
-        this.name = Path.GetFileNameWithoutExtension(path);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a721bcd40e892d9b5433aa12b937357002396e18c671cd601bd2816a6641f77
+size 682

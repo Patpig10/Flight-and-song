@@ -1,9 +1,3 @@
-# Transform
-
-![](images/Transform.png)
-
-**Transform** is a suite of tools focused on translating the Terrain. **Transform** contains three tools:
-
-* [__Pinch__](transform-pinch.md) pulls the height towards or bulges it away from the center of the Brush.
-* [__Smudge__](transform-smudge.md) moves Terrain features along the path of the Brush stroke.
-* [__Twist__](transform-twist.md) rotates Terrain features around the center of the Brush, along the path of the Brush stroke.
+version https://git-lfs.github.com/spec/v1
+oid sha256:66ec4a6bcbf9eaea50f7dffa560b8be67ba579ff0583353651ae979c3a46d41e
+size 476

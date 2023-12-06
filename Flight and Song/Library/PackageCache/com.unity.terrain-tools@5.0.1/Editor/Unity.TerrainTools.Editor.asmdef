@@ -1,29 +1,3 @@
-{
-    "name": "Unity.TerrainTools.Editor",
-    "rootNamespace": "",
-    "references": [
-        "GUID:870ce330d12521c41ba8a44d9ad3a5fc"
-    ],
-    "includePlatforms": [
-        "Editor"
-    ],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
-    "defineConstraints": [],
-    "versionDefines": [
-        {
-            "name": "com.unity.render-pipelines.high-definition",
-            "expression": "",
-            "define": "USE_HIGH_DEFINITION_RENDERPIPELINE"
-        },
-        {
-            "name": "com.unity.render-pipelines.universal",
-            "expression": "",
-            "define": "USE_UNIVERSAL_RENDERPIPELINE"
-        }
-    ],
-    "noEngineReferences": false
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:63ff35bc2c65cf06c4c80820a5325b010286c772468a7c8c0d6522332ab73360
+size 777

@@ -1,32 +1,3 @@
-namespace UnityEditor.TerrainTools
-{
-    /// <summary>
-    /// An enum used for defining which n-dimensional spaces a particular
-    /// NoiseType or FractalType implementation supports
-    /// </summary>
-    [System.Serializable]
-    [System.Flags]
-    internal enum NoiseDimensionFlags
-    {
-        /// <summary>
-        /// No dimensions are supported
-        /// </summary>
-        None = 0,
-        /// <summary>
-        /// One-dimensional noise is supported
-        /// </summary>
-        _1D = (1 << 0),
-        /// <summary>
-        /// Two-dimensional noise is supported
-        /// </summary>
-        _2D = (1 << 1),
-        /// <summary>
-        /// Three-dimensional noise is supported
-        /// </summary>
-        _3D = (1 << 2),
-        /// <summary>
-        /// Four-dimensional noise is supported
-        /// </summary>
-        _4D = (1 << 3),
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef3b7b163ce2a49ed68dd215aaeb677b81b6111c81c15b42b3c740f7a13201b3
+size 871

@@ -1,22 +1,3 @@
-﻿using System;
-
-namespace Unity.XR.CoreUtils.Datums
-{
-    /// <summary>
-    /// Serializable container class that holds a string value or container asset reference.
-    /// </summary>
-    /// <seealso cref="StringDatum"/>
-    [Serializable]
-    public class StringDatumProperty : DatumProperty<string, StringDatum>
-    {
-        /// <inheritdoc/>
-        public StringDatumProperty(string value) : base(value)
-        {
-        }
-
-        /// <inheritdoc/>
-        public StringDatumProperty(StringDatum datum) : base(datum)
-        {
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6eb63313170540fb95f4c2b4bed393e0e838460f377075ec629d971974bbe874
+size 555

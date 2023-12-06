@@ -1,17 +1,3 @@
-﻿// ***********************************************************************
-// Copyright (c) 2017 Unity Technologies. All rights reserved.
-//
-// Licensed under the ##LICENSENAME##.
-// See LICENSE.md file in the project root for full license information.
-// ***********************************************************************
-using NUnit.Framework;
-using System.Collections;
-using Autodesk.Fbx;
-
-namespace Autodesk.Fbx.UnitTests
-{
-    internal class FbxSubDeformerTest : Base<FbxSubDeformer>
-    {
-
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:277d5b9b434f6ec1bbd9d3c2b8d1bf4dfcae6e2523524d95cf1f4eeb90f3f246
+size 512

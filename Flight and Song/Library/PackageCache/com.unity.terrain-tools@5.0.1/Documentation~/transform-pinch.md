@@ -1,18 +1,3 @@
-# Pinch Tool
-
-If you set the **Pinch Amount** to a positive value, the tool pulls Terrain features inward towards the center of the Brush. If you set the **Pinch Amount** to a negative value, the tools does the opposite, and bulges Terrain features outwards away from the center of the Brush.
-
-![](images/2-41-Pinch-03.png)
-
-Select a Terrain tile to bring up the Terrain Inspector. In the Terrain Inspector, click the **Paint Terrain** icon, and select **Transform** > **Pinch** from the list of Terrain tools.
-
-![](images/Transform.png)
-
-## Parameters
-
-![](images/2-41-Pinch-02.png)
-
-| **Property**     | **Description**                                              |
-| ---------------- | ------------------------------------------------------------ |
-| **Targets**      | Defines the Tool targets. Click the **Materials** button to make the Tool affect the Material splat map texture. Click the **Heightmap** button to make the Tool affect the Heightmap texture. |
-| **Pinch Amount** | The strength of the pinch or bulge effect.<br />Examples:<br />&#8226; 100 pinches the Terrain into a sharp point.<br />&#8226; 0 does nothing.<br />&#8226; -100 bulges the Terrain outwards to the maximum. |
+version https://git-lfs.github.com/spec/v1
+oid sha256:2c3756b2e8ef224da339d9efaca282e0ea200d90857cb4a7a468a72065eae50d
+size 1196

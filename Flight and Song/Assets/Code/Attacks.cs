@@ -1,36 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class Attacks : MonoBehaviour
-{
-    public float speed = 5.0f;
-    public float lifetime = 4.0f;
-
-    private Transform player;
-    private Vector3 directionToPlayer;
-
-    void Start()
-    {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
-
-        if (player != null)
-        {
-            // Calculate the direction to the player
-            directionToPlayer = (player.position - transform.position).normalized;
-        }
-
-        Invoke("DestroyObject", lifetime);
-    }
-
-    void Update()
-    {
-        // Move towards the player's last known position
-        transform.Translate(directionToPlayer * speed * Time.deltaTime, Space.World);
-    }
-
-    void DestroyObject()
-    {
-        Destroy(gameObject);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:75fb9b9fe7988e9598f7f4cdc9e5f778f6b75e0136361e8ddee42d701bdbf77a
+size 826

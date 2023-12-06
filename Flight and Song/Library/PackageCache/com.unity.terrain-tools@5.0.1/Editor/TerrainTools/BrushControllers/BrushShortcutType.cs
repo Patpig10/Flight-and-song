@@ -1,31 +1,3 @@
-using System;
-
-namespace UnityEditor.TerrainTools
-{
-    /// <summary>
-    /// Sets which shortcut type to use when utilizing the common brush shortcuts.
-    /// </summary>
-    [Flags]
-    public enum BrushShortcutType
-    {
-        /// <summary>
-        /// Use the Rotation shortcut.
-        /// </summary>
-        Rotation = 1 << 0,
-
-        /// <summary>
-        /// Use the Size shortcut.
-        /// </summary>
-        Size = 1 << 1,
-
-        /// <summary>
-        /// Use the Strength shortcut.
-        /// </summary>
-        Strength = 1 << 2,
-
-        /// <summary>
-        /// Use multiple shortcuts.
-        /// </summary>
-        RotationSizeStrength = Rotation | Size | Strength,
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7987b2708fa50504345b2f4dfebc4142f6bf8043462c7fc5718285efb92a71b6
+size 700

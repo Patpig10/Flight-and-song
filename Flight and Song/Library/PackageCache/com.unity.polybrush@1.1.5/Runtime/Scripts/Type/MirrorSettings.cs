@@ -1,20 +1,3 @@
-﻿namespace UnityEngine.Polybrush
-{
-    /// <summary>
-    /// Brush mirror settings.
-    /// Used to define brush areas and placement when Axes is defined.
-    /// </summary>
-    [System.Serializable]
-    internal struct MirrorSettings
-    {
-        /// <summary>
-        /// Mask of active axes. Set value to None for no mirroring.
-        /// </summary>
-        public BrushMirror Axes;
-
-        /// <summary>
-        /// Space coordinate in which the brush ray will be flipped.
-        /// </summary>
-        public MirrorCoordinateSpace Space;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:60a50222a536320305818351fb2860c8554b78df95f5437c96164ea3fa6e6c40
+size 557

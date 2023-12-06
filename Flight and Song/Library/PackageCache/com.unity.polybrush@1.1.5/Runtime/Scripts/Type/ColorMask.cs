@@ -1,19 +1,3 @@
-namespace UnityEngine.Polybrush
-{
-    /// <summary>
-    /// Mask Used for Vertex Color Painting mode 
-    /// </summary>
-	internal struct ColorMask
-	{
-		internal bool r, g, b, a; 
-
-		internal ColorMask(bool r, bool g, bool b, bool a)
-		{
-			this.r = r;
-			this.b = b;
-			this.g = g;
-			this.a = a;
-		}
-	}
-}
-	
+version https://git-lfs.github.com/spec/v1
+oid sha256:dfcc9f77aa388fa9bab62c387842ae6fac659062a7a1fe113444bbd1e6ae8d82
+size 309

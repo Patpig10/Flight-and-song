@@ -1,17 +1,3 @@
-﻿using UnityEditor;
-
-namespace Unity.XR.CoreUtils.Datums.Editor
-{
-    /// <summary>
-    /// Variable reference drawer used to represent an int reference.
-    /// </summary>
-    /// <seealso cref="IntDatumProperty"/>
-    /// <seealso cref="DatumPropertyDrawer"/>
-    /// <summary>
-    /// Class used to draw an <see cref="IntDatumProperty"/>.
-    /// </summary>
-    [CustomPropertyDrawer(typeof(IntDatumProperty))]
-    public class IntDatumPropertyDrawer : DatumPropertyDrawer
-    {
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e13f8141cf0fbf1747f29bd651db59f24a2627985882ea081b880a0569d95138
+size 492

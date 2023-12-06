@@ -1,22 +1,3 @@
-﻿using UnityEngine;
-using UnityEditor;
-using UnityEngine.TestTools;
-using NUnit.Framework;
-using System.Collections;
-using Autodesk.Fbx;
-
-namespace Autodesk.Fbx.UnitTests
-{
-    internal class FbxIOFileHeaderInfoTest : TestBase<FbxIOFileHeaderInfo>
-    {
-
-        [Test]
-        public void TestBasics ()
-        {
-            var fileHeaderInfo = new FbxIOFileHeaderInfo ();
-            TestGetter (fileHeaderInfo.mCreator);
-            TestGetter (fileHeaderInfo.mFileVersion);
-            fileHeaderInfo.Dispose ();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5306db8b011ce45fd55eb0f182f317c0cc992e336f1d9008c47eb257267a0f25
+size 537

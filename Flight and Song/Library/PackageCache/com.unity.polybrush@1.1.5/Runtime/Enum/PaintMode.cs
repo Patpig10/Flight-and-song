@@ -1,15 +1,3 @@
-namespace UnityEngine.Polybrush
-{
-    /// <summary>
-    /// Describes different mesh painting modes.
-    /// </summary>
-    internal enum PaintMode
-	{
-		// A brush with radius and falloff.
-		Brush,
-		// Fill hovered polygons with a uniform color.
-		Fill,
-		// Flood fill the entire selection
-		Flood
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c6209a948829d62bcbdab0d507ee0ab4b76e647aa767efef20ee29febd846a7b
+size 305

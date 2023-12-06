@@ -1,14 +1,3 @@
-# Upgrade Terrain Tools from 3.0.2 to 4.0.0
-In the Terrain Tools package, some features work differently between versions. This document helps you upgrade Terrain Tools from 3.0.2 to 4.0.0.
-
-## Experimental API upgrade
-From 4.0.0, Terrain APIs are no longer experimental. The namespaces were changed to reflect this.
-
-| Old namespace                  | New namespace          |
-| ----------------------------------- | ---------------------- |
-| UnityEditor.Experimental.TerrainAPI | UnityEditor.TerrainAPI |
-| UnityEngine.Experimental.TerrainAPI | UnityEngine.TerrainAPI |
-
-## API scope
-A portion of the Terrain Tools API access modifiers were changed from public to internal.
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c255a944697d0c4bfe2670b343adec363572e42851ee6606a5615afbbd5a6a7
+size 678

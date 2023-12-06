@@ -1,15 +1,3 @@
-using UnityEngine;
-
-namespace UnityEngine.Polybrush
-{
-    /// <summary>
-    /// Interface for objects that contain a set of default values.
-    /// </summary>
-    internal interface IHasDefault
-	{
-        /// <summary>
-        /// Set this object to use default values.
-        /// </summary>
-        void SetDefaultValues();
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f9dc4872cb0bbbbc4d3c1e4b5214f5ded13c799fdc694481f26de8bf7c623434
+size 331

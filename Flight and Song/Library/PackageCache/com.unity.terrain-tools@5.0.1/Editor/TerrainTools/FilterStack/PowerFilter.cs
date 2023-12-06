@@ -1,33 +1,3 @@
-using UnityEngine;
-
-namespace UnityEditor.TerrainTools
-{
-    [System.Serializable]
-    internal class PowerFilter : Filter
-    {
-        [SerializeField]
-        public float value = 2;
-
-        public override string GetDisplayName()
-        {
-            return "Power";
-        }
-
-        public override string GetToolTip()
-        {
-            return "Applies an exponential function to each pixel on the Brush Mask. The function is pow(value, e), where e is the input value.";
-        }
-
-        protected override void OnEval(FilterContext fc, RenderTexture sourceRenderTexture, RenderTexture destinationRenderTexture)
-        {
-            FilterUtility.builtinMaterial.SetFloat("_Pow", value);
-
-            Graphics.Blit(sourceRenderTexture, destinationRenderTexture, FilterUtility.builtinMaterial, (int)FilterUtility.BuiltinPasses.Power);
-        }
-
-        protected override void OnDrawGUI(Rect rect, FilterContext filterContext)
-        {
-            value = EditorGUI.FloatField(rect, value);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8b75427a8cb5529e2944b5c08268bba82f13571da8b239a53bdf5693f05f4ed
+size 1025

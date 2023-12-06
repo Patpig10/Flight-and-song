@@ -1,15 +1,3 @@
-namespace UnityEditor.TerrainTools
-{
-    internal class NoiseFillShaderGenerator : NoiseShaderGenerator<NoiseFillShaderGenerator>
-    {
-        private static ShaderGeneratorDescriptor m_desc = new ShaderGeneratorDescriptor()
-        {
-            name = "NoiseFill",
-            shaderCategory = "Hidden/TerrainTools/NoiseFill",
-            outputDir = "Packages/com.unity.terrain-tools/Shaders/Generated",
-            templatePath = "Packages/com.unity.terrain-tools/Shaders/NoiseLib/Templates/Fill.noisehlsltemplate"
-        };
-
-        public override ShaderGeneratorDescriptor GetDescription() => m_desc;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f7b971fb2fecf844e80ae453a1bc00f36986612dabfffabfef67c4c4cd81eef2
+size 617

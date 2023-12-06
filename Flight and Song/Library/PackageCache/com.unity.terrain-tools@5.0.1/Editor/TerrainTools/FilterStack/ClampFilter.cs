@@ -1,33 +1,3 @@
-using UnityEngine;
-
-namespace UnityEditor.TerrainTools
-{
-    [System.Serializable]
-    internal class ClampFilter : Filter
-    {
-        [SerializeField]
-        public Vector2 range = new Vector2(0, 1);
-
-        public override string GetDisplayName()
-        {
-            return "Clamp";
-        }
-
-        public override string GetToolTip()
-        {
-            return "Clamps the pixels of a mask to the specified range. Change the X value to specify the low end of the range, and change the Y value to specify the high end of the range.";
-        }
-
-        protected override void OnEval(FilterContext fc, RenderTexture sourceRenderTexture, RenderTexture destinationRenderTexture)
-        {
-            FilterUtility.builtinMaterial.SetVector("_ClampRange", range);
-
-            Graphics.Blit(sourceRenderTexture, destinationRenderTexture, FilterUtility.builtinMaterial, (int)FilterUtility.BuiltinPasses.Clamp);
-        }
-
-        protected override void OnDrawGUI(Rect rect, FilterContext filterContext)
-        {
-            range = EditorGUI.Vector2Field(rect, "", range);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6bf4d487971c1d6196e672e85613b53e488625d700abbe862271d5b0bbbc5f66
+size 1102

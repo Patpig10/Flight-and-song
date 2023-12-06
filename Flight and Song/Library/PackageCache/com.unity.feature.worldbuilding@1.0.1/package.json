@@ -1,16 +1,3 @@
-{
-  "name": "com.unity.feature.worldbuilding",
-  "displayName": "3D World Building",
-  "version": "1.0.1",
-  "type": "feature",
-  "_upm": {
-    "quickstart": "https://docs.unity3d.com/2021.2/Documentation/Manual/WorldBuildingFeature.html"
-  },
-  "description": "Create attractive 3D environments with the World building feature set and round-trip assets between your 3D modeling software of choice using FBX to realize your creative intent. Create geometry, sculpt meshes, & terrain, blend textures, and place objects throughout your scene using artist driven tools to create believable interactive environments.",
-  "dependencies": {
-    "com.unity.probuilder": "default",
-    "com.unity.polybrush": "default",
-    "com.unity.formats.fbx": "default",
-    "com.unity.terrain-tools": "default"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c82d378e4bf12b78ce1005e01c40cc9d03a86f01f73dc6420c04f32ff55c3e2
+size 799

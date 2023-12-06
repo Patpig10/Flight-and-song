@@ -1,18 +1,3 @@
-namespace UnityEditor.TerrainTools
-{
-    /// <summary>
-    /// An interface that represent the controller for rotating the brush.
-    /// </summary>
-    public interface IBrushRotationController : IBrushController
-    {
-        /// <summary>
-        /// Gets and sets the brush's rotation.
-        /// </summary>
-        float brushRotation { get; set; }
-
-        /// <summary>
-        /// Gets the current rotation of the brush.
-        /// </summary>
-        float currentRotation { get; }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f19eb9a7243e0003a4e7fb423f2d8ff91707784e6561d86a30d95274df840fb
+size 500

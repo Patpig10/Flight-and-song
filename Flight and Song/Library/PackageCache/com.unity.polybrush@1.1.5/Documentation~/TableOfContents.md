@@ -1,14 +1,3 @@
-* [About Polybrush](index)
-* [Modes](modes)
-  * [Sculpt](modes_sculpt)
-  * [Smooth](modes_smooth)
-  * [Color](modes_color)
-  * [Texture](modes_texture)
-  * [Scatter](modes_prefab)
-* [Brush settings](brushes)
-* [Brush mirroring](brush_mirror)
-* [Polybrush Mesh component](component)
-* [Menu options](menu)
-* [Keyboard shortcuts](shortcuts)
-* [Preferences](prefs)
-* [Troubleshooting](faq)
+version https://git-lfs.github.com/spec/v1
+oid sha256:257b87b48c83b00078a6d271376b9af90e4183ab0a65f2c63e68ecabc2851256
+size 387

@@ -1,27 +1,3 @@
-// ***********************************************************************
-// Copyright (c) 2017 Unity Technologies. All rights reserved.
-//
-// Licensed under the ##LICENSENAME##.
-// See LICENSE.md file in the project root for full license information.
-// ***********************************************************************
-
-using NUnit.Framework;
-using System.Collections.Generic;
-
-namespace Autodesk.Fbx.UnitTests
-{
-    internal static class DisposeTester
-    {
-        /// <summary>
-        /// Test that dispose doesn't crash or throw anything.
-        ///
-        /// This function is here just to allow the coverage tester to
-        /// devirtualize the call to Dispose. Otherwise, it fails to notice
-        /// some calls we're actually making.
-        /// </summary>
-        public static void TestDispose<T>(T disposable) where T: System.IDisposable
-        {
-            disposable.Dispose();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ec62d8c78c937844553b73de8804dfbe15d481557630277d7874569b686d70da
+size 927

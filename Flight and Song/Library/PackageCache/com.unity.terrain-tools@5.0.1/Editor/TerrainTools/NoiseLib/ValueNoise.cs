@@ -1,20 +1,3 @@
-namespace UnityEditor.TerrainTools
-{
-    /// <summary>
-    /// A NoiseType implementation for Value noise
-    /// </summary>
-    [System.Serializable]
-    internal class ValueNoise : NoiseType<ValueNoise>
-    {
-        private static NoiseTypeDescriptor desc = new NoiseTypeDescriptor()
-        {
-            name = "Value",
-            outputDir = "Packages/com.unity.terrain-tools/Shaders/NoiseLib",
-            sourcePath = "Packages/com.unity.terrain-tools/Shaders/NoiseLib/Implementation/ValueImpl.hlsl",
-            supportedDimensions = NoiseDimensionFlags._1D | NoiseDimensionFlags._2D | NoiseDimensionFlags._3D,
-            inputStructDefinition = null
-        };
-
-        public override NoiseTypeDescriptor GetDescription() => desc;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3540308c2c78ddae2390e1c20a11b959ef8504c3cfdcd7ac9f4740909cc47d74
+size 751

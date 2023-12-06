@@ -1,22 +1,3 @@
-{
-    "name": "FbxBuildTestAssets",
-    "references": [
-        "Autodesk.Fbx",
-        "UnityEngine.TestRunner",
-        "UnityEditor.TestRunner"
-    ],
-    "includePlatforms": [],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": true,
-    "precompiledReferences": [
-        "nunit.framework.dll"
-    ],
-    "defineConstraints": [
-        "!UNITY_EDITOR_LINUX"
-    ],
-    "autoReferenced": false,
-    "defineConstraints": [],
-    "versionDefines": [],
-    "noEngineReferences": false
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef560994614de5da4343438ba1b536eabcc3f67c9b335748d7d3cfa98f8187ee
+size 521

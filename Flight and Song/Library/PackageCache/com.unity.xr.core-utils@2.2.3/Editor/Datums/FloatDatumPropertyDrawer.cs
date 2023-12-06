@@ -1,17 +1,3 @@
-﻿using UnityEditor;
-
-namespace Unity.XR.CoreUtils.Datums.Editor
-{
-    /// <summary>
-    /// Variable reference drawer used to represent a float reference.
-    /// </summary>
-    /// <seealso cref="FloatDatumProperty"/>
-    /// <seealso cref="DatumPropertyDrawer"/>
-    /// <summary>
-    /// Class used to draw a <see cref="FloatDatumProperty"/>.
-    /// </summary>
-    [CustomPropertyDrawer(typeof(FloatDatumProperty))]
-    public class FloatDatumPropertyDrawer : DatumPropertyDrawer
-    {
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d8e39dd2134f7a7ece8714f514be7659d703166102d98ec65e029a9d343141d
+size 500

@@ -1,22 +1,3 @@
-﻿using System;
-
-namespace Unity.XR.CoreUtils.Datums
-{
-    /// <summary>
-    /// Serializable container class that holds an int value or container asset reference.
-    /// </summary>
-    /// <seealso cref="IntDatum"/>
-    [Serializable]
-    public class IntDatumProperty : DatumProperty<int, IntDatum>
-    {
-        /// <inheritdoc/>
-        public IntDatumProperty(int value) : base(value)
-        {
-        }
-
-        /// <inheritdoc/>
-        public IntDatumProperty(IntDatum datum) : base(datum)
-        {
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:97a5bf966e062a1647dbc91c6da3b5a72d73a723d3e97862670042daefa430df
+size 529

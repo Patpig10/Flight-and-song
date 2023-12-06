@@ -1,20 +1,3 @@
-﻿using UnityEngine;
-
-namespace Unity.XR.CoreUtils.Datums
-{
-    /// <summary>
-    /// <see cref="ScriptableObject"/> container class that holds an int value.
-    /// </summary>
-    [CreateAssetMenu(fileName = "IntDatum", menuName = "XR/Value Datums/Int Datum", order = 0)]
-    public class IntDatum : Datum<int>
-    {
-        /// <summary>
-        /// Snap to nearest int.
-        /// </summary>
-        /// <param name="value">Value to round to nearest int value.</param>
-        public void SetValueRounded(float value)
-        {
-            Value = Mathf.RoundToInt(value);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd001fc250139fadf4387225f96792112761fb6fe2147b2c91e1449a08122e2c
+size 596

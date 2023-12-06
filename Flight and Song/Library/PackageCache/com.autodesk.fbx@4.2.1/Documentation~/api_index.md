@@ -1,20 +1,3 @@
-# API documentation
-
-See the [Autodesk® FBX® SDK API documentation](https://help.autodesk.com/view/FBX/2020/ENU/?guid=FBX_Developer_Help_cpp_ref_annotated_html).
-
-The bindings are in the `Autodesk.Fbx` namespace:
-
-```
-using Autodesk.Fbx;
-using UnityEditor;
-using UnityEngine;
-
-public class HelloFbx {
-  [MenuItem("Fbx/Hello")]
-  public static void Hello() {
-    using(var manager = FbxManager.Create()) {
-      Debug.LogFormat("FBX SDK is version {0}", FbxManager.GetVersion());
-    }
-  }
-}
-```
+version https://git-lfs.github.com/spec/v1
+oid sha256:02b35c0aa78fe126fdaec4bb53a2664bd3d9490b7921f3f79772a96d474bb61c
+size 497

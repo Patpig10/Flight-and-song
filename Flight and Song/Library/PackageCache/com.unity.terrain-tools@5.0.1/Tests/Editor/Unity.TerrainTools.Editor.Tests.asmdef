@@ -1,24 +1,3 @@
-{
-    "name": "Unity.TerrainTools.Editor.Tests",
-    "references": [
-        "GUID:27619889b8ba8c24980f49ee34dbb44a",
-        "GUID:0acc523941302664db1f4e527237feb3",
-        "GUID:99491abea1d2e7b47b99bc47c7d66616",
-        "GUID:870ce330d12521c41ba8a44d9ad3a5fc"
-    ],
-    "includePlatforms": [
-        "Editor"
-    ],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [
-        "nunit.framework.dll"
-    ],
-    "autoReferenced": true,
-    "defineConstraints": [
-        "UNITY_INCLUDE_TESTS"
-    ],
-    "versionDefines": [],
-    "noEngineReferences": false
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3cc9847e65ef7fb3358ebc7f561901e2fecda090b0bb34d2b14582832602ab0d
+size 631

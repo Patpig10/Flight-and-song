@@ -1,15 +1,3 @@
-using UnityEngine;
-
-namespace UnityEditor.TerrainTools
-{
-    [System.Serializable]
-    internal class AbsFilter : Filter
-    {
-        public override string GetDisplayName() => "Abs";
-        public override string GetToolTip() => "Sets all pixels of an existing Brush Mask to their absolute values";
-        protected override void OnEval(FilterContext filterContext, RenderTexture sourceRenderTexture, RenderTexture destinationRenderTexture)
-        {
-            Graphics.Blit( sourceRenderTexture, destinationRenderTexture, FilterUtility.builtinMaterial, ( int )FilterUtility.BuiltinPasses.Abs );
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:11d6cda525158eeba9fe50f2b59865ce24184a9ce73b1a4c28b7df8dded0f675
+size 619

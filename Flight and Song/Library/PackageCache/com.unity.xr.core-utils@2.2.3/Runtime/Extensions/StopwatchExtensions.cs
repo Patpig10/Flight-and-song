@@ -1,23 +1,3 @@
-﻿#if !NET_4_6
-using System.Diagnostics;
-
-namespace Unity.XR.CoreUtils
-{
-    /// <summary>
-    /// Extension methods for `System.Diagnostics.Stopwatch` objects.
-    /// </summary>
-    public static class StopwatchExtensions
-    {
-        /// <summary>
-        /// Restarts the stopwatch by stopping, resetting, and then starting it.
-        /// </summary>
-        /// <param name="stopwatch">The stopwatch to restart.</param>
-        public static void Restart(this Stopwatch stopwatch)
-        {
-            stopwatch.Stop();
-            stopwatch.Reset();
-            stopwatch.Start();
-        }
-    }
-}
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:8f57ec0cecd38af0ef342442b84f57d87a90044307056102358df89e7979ae91
+size 615

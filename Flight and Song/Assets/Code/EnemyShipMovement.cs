@@ -1,20 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class EnemyShipMovement : MonoBehaviour
-{
-    public float speed = 5.0f;  // Movement speed
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        // Move the enemy ship forward
-        transform.Translate(Vector3.forward * speed * Time.deltaTime);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e2b8dd73df5900ee0c2e7a429a79e3338cfa9d97f167836d5298810684225f7
+size 1214

@@ -1,7 +1,3 @@
-* [Introduction](index.md)
-  * [What's new](whats-new.md)
-  * [Upgrade guide](upgrade-guide.md)
-* [XR Origin](xr-origin.md)
-  * [Add the XR Origin to a scene](xr-origin-setup.md)
-  * [XR Origin components and properties](xr-origin-reference.md)
-* [Project validation](project-validation.md)
+version https://git-lfs.github.com/spec/v1
+oid sha256:f7f49adfcd57cedda73b056f76a6dfe500f2172721b4f2fa72c6095040819752
+size 291

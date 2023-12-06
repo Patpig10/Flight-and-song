@@ -1,33 +1,3 @@
-using UnityEngine;
-
-namespace UnityEditor.TerrainTools
-{
-    [System.Serializable]
-    internal class MinFilter : Filter
-    {
-        [SerializeField]
-        public float value = 1;
-
-        public override string GetDisplayName()
-        {
-            return "Min";
-        }
-
-        public override string GetToolTip()
-        {
-            return "Sets all pixels of the current mask to whichever is smaller, the current pixel value or the input value.";
-        }
-
-        protected override void OnEval(FilterContext fc, RenderTexture sourceRenderTexture, RenderTexture destinationRenderTexture)
-        {
-            FilterUtility.builtinMaterial.SetFloat("_Min", value);
-
-            Graphics.Blit(sourceRenderTexture, destinationRenderTexture, FilterUtility.builtinMaterial, (int)FilterUtility.BuiltinPasses.Min);
-        }
-
-        protected override void OnDrawGUI(Rect rect, FilterContext filterContext)
-        {
-            value = EditorGUI.FloatField(rect, value);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3cf36c18d6084b661f805e613cf24f7892b2e8304bbd45b6360f55de31ec32f5
+size 1000

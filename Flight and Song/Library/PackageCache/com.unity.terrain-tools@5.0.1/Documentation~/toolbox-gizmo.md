@@ -1,9 +1,3 @@
-# Gizmo
-
-The **Gizmo** is a transparent cube that appears in Scene view to help identify the location and scale of the Terrain. Enable the checkbox to display the Gizmo, and disable the checkbox to remove it. Click the arrow beside the checkbox to display  the Gizmo's **Edit Bounds** button.
-
-![](images/Toolbox_Create_Gizmo.png)
-
-You can use the **Move**, **Scale**, and **Transform** tools on the Gizmo in Scene view.
-
-![](images/Toolbox_Gizmo_SceneView.png)
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3a86c66dd9bf86a7550fab91dfdee3e62ecdff4c4b5ef1086710fff321bf77a
+size 462

@@ -1,4 +1,3 @@
-system: jira
-server: jira.unity3d.com
-project: POLBR
-issuetype: Bug
+version https://git-lfs.github.com/spec/v1
+oid sha256:dca0bb0f8142e1bf7a0e13af1911114f16773f7bea3868bdf6a3c622d6a507f3
+size 67
