@@ -45,6 +45,7 @@ VR: Tilt both controllers to move, the left button to Ascend and the right butto
  Making objects to react to the music and getting the speed boost working though randomly give you a little boost to a large one.
 # What I learned
 How to make a music visualizer
+
 Making an object that temporally boost the player's speed
 # Proposal:
 The player would fly towards a ship(VR or AR) using motion control. The attacks/obstacles would depend on the music you add. The building around would bounce to the tones(That's if on VR) Controls will be motion aka for VR you'll have 2 arms out and tilt the direction you want to go for AR you tilt your phone. Leaning to AR since my current laptop might not be able to handle VR and my stronger one is still getting repaired without an end in sight. Groovy on music and lighting, complex with attacks and balancing, hopefully getting a system done a week but depends on other assignments. All on unity.
